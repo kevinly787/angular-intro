@@ -5,3 +5,8 @@
 
 "use strict";
 
+//create new angular module
+angular.module('MovieApp', [])
+    .controller('MoviesController', function($scope) {
+        $scope.movies = movies;
+    });
